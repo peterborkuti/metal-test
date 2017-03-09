@@ -3,6 +3,75 @@
 /**
  * This renders the component's whole content.
  */
+
 {template .render}
-	<div>Hello BP</div>
+<div>
+   <div id="tooltipexamples">
+      <h1>Tooltip</h1>
+      <div class="row">
+         <div id="tooltip1" class="col-md-4 text-right">Here should be a tooltip 1</div>
+         <div data-title="tooltip 2" class="col-md-4 text-center">Here should be tooltip 2</div>
+         <div data-title="tooltip 3" class="col-md-4 text-center">Here should be tooltip 3</div>
+      </div>
+   </div>
+
+   <hr>
+
+   <div id="modalexamples">
+      <h1>Modal</h1>
+      <div class="modal"></div>
+      <button type="button" class="btn btn-primary openModal">Open Modal</button>
+   </div>
+
+   <hr>
+
+   <div id="togglerexamples">
+      <h1>Toggler</h1>
+      <div class="row">
+         <div class="col-md-6">
+            <button class="btn btn-primary">Read more &raquo;</button>
+            <div class="toggler-content toggler-collapsed">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea qui sint distinctio recusandae quo ut eaque provident eius eos commodi natus labore culpa modi soluta quia repudiandae nulla ex. Reiciendis cupiditate quis voluptatum atque veniam assumenda itaque perferendis eos voluptatem dolores aut eum. Ut voluptatum amet earum delectus totam unde!
+            </div>
+         </div>
+         <div class="col-md-6">
+            <button class="btn btn-primary">Read more 2 &raquo;</button>
+            <div class="toggler-content toggler-collapsed">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea qui sint distinctio recusandae quo ut eaque provident eius eos commodi natus labore culpa modi soluta quia repudiandae nulla ex. Reiciendis cupiditate quis voluptatum atque veniam assumenda itaque perferendis eos voluptatem dolores aut eum. Ut voluptatum amet earum delectus totam unde!
+            </div>
+         </div>
+      </div>
+   </div>
+
+    <hr>
+
+    <div id="autocompleteexample">
+	<h1>Autocomplete</h1>
+	<p>Type in a continent's name (Africa, Asia, etc.)</p>
+	<div class="row">
+	    <div class="col-md-6">
+		<input id="autocompleteinput" type="text" class="form-control">
+	    </div>
+	    <div class="col-md-6">
+		<div id="autocompletelist"></div>
+	    </div>
+	</div>
+    </div>
+
+    <hr>
+
+    <div id="selectexample">
+	<h1>Select</h1>
+	<div class="col-md-4">
+	    <h1>Dropdown + input group left</h1>
+	    <div id="first"></div>
+	</div>
+	
+	<div class="col-md-4">
+	    <h1>Dropdown + label</h1>
+	    <div id="second"></div>
+	</div>
+    </div>
+
+</div>
 {/template}

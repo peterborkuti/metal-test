@@ -10,9 +10,17 @@
 	<script src="../build/globals/test01.js"></script>
 </head>
 <body>
+<div class="container-fluid">
 	<h1>Test01</h1>
 	<script type="text/javascript">
-		new metal.Test01();
+		metalTest = new metal.Test01({title:'Tooltip title'});
+		//button with class 'openModal' is created by the soy template
+		//I could not reach it from the class's rendered method.
+		//Are there more elegant way for this?
+		//metalTest.setModalOpener(document.querySelector('.openModal'));
+
+
 	</script>
+</div>
 </body>
 </html>

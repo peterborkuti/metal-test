@@ -22,7 +22,14 @@
 	],
 	"dependencies": {
 		"metal-component": "^1.0.0-rc.11",
-		"metal-soy": "^1.0.0-rc.11"
+		"metal-soy": "^1.0.0-rc.11",
+		"metal-alert": "^1.0.0-rc.11",
+		"metal-modal": "^1.0.0-rc.11",
+		"metal-tooltip": "^1.0.0-rc.11",
+		"metal-toggler": "^1.0.0-rc.11",
+		"metal-autocomplete": "^1.0.0-rc.11",
+		"metal-select": "^1.0.0-rc.11",
+		"bootstrap": "^3.3.6"
 	},
 	"devDependencies": {
 		"gulp": "^3.8.11",
